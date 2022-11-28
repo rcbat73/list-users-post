@@ -11,7 +11,7 @@ const StyledButton = styled("button")`
   color: var(--white);
   padding: 5px 12px;
   &:hover {
-    box-shadow: 0px 0px 4px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 4px var(--balck30);
   }
   height: 100%;
   width: 100%;

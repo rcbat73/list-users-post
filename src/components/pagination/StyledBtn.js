@@ -8,7 +8,7 @@ const StyledBtn = styled("button")`
     border-radius: 50%;
     font-weight: bold;
     background-color: ${({ disabled }) => disabled ? `var(--light-gray)}` : `var(--black)`};
-    color: white;
+    color: var(--white);
     cursor: pointer;
 `;
 

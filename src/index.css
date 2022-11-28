@@ -17,10 +17,14 @@ h1, h2, h3, p {
 }
 
 :root {
-  --white: white;
-  --black: black;
+  --white: #ffffff;
+  --black: #000000;
+  --balck30: #0000004C;
   --alice-blue: #e4edf6;
   --summer-sky: #3498DB;
   --light-gray: #dddddd;
   --red: #ff0000;
+  --bright-blue: #3498db;
+  --taupe-gray: #888888;
+  --white-smoke: #f3f3f3;
 }

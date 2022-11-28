@@ -11,8 +11,8 @@ const rotate = keyframes`
 `;
 
 const SpinnerContent = styled("div")`
-  border: 5px solid #f3f3f3;
-  border-top: 5px solid #3498db;
+  border: 5px solid var(--white-smoke);
+  border-top: 5px solid var(--bright-blue);
   border-radius: 50%;
   width: ${({ width }) => width}px;
   height: ${({ height }) => height}px;

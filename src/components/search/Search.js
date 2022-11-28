@@ -66,7 +66,7 @@ const Search = () => {
           </StyledLabel>
           <StyledButton>
             Search
-            {isFetching && <Spinner width="12" height="12" positioned={false}/>}
+            {isFetching ? <Spinner width="12" height="12" positioned={false}/> : null}
           </StyledButton>
         </StyledForm>
         {alert.show && <Alert text={alert.content} onAlertHandler={setAlert}/>}

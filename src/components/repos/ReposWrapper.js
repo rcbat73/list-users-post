@@ -5,7 +5,7 @@ const ReposWrapper = styled("div")`
   justify-content: center;
   flex-direction: column;
   align-items: stretch;
-  border: 2px solid lightgrey;
+  border: 2px solid var(--light-gray);
   border-radius: 4px;
 
   @media (min-width: 768px) { 

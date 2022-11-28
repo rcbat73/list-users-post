@@ -6,8 +6,8 @@ const SpinnerWrapper = styled("div")`
   align-items: center;
   ${({ positioned }) => positioned ? "position: absolute" : null};
   height: 30px;
-  width: 100%;
-  top: 50%;
+  left: 50%;
+  ${({ positioned, leftPos }) => positioned ? `transform: translateX(${-leftPos/2}px)` : null};
 `;
 
 export default SpinnerWrapper;

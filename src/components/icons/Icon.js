@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Icon = styled("svg")`
   position: relative;
   height: ${({ height = "24px" }) => height};
-  fill: ${({ color = "black" }) => color};
+  fill: ${({ color = "var(--black)" }) => color};
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
